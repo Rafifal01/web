@@ -1,0 +1,80 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+.navbar .container-fluid {
+  background-color: rgb(45, 45, 45);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .container-fluid .navbar-brand {
+  padding: 15px;
+}
+
+/* card */
+.wadah1 {
+  margin-top: 40px;
+  background-color: white;
+}
+
+.head1 * {
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.col {
+  margin-right: 10px;
+}
+.col .card {
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.container {
+  align-content: center;
+  margin: 20px;
+  padding-left: 250px;
+}
+
+.card .card-body .card-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card .card-body .card-text {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  max-width: 300px;
+}
+
+/* gambar */
+.card-gambar {
+  max-width: 250px;
+}
+/* mobile phone */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .head1 * {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  .wadah1 {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .container {
+    align-content: center;
+    margin: 20px;
+    padding-left: 210px;
+  }
+}
