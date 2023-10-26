@@ -1,0 +1,94 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+
+/* body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+.navbar .container-fluid {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* tulisan navbar portofolio */
+.navbar-brand {
+  color: crimson;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* tulisan kecil nav */
+.navbar-nav .nav-link {
+  color: brown;
+}
+
+/* jumbotron */
+.head1 * {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+/* card */
+
+/* list card */
+.col {
+  padding-left: 40px;
+}
+
+/* card isi */
+/* title */
+.card .card-body .card-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* body */
+.card .card-body .card-text {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  max-width: 300px;
+}
+
+.card-text {
+  min-height: 100px;
+}
+
+/* kata kata awal */
+.kataawal {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* tampilan mobile phone */
+/* untuk tampilan layar maksimal 768pixel */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .head1 * {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  .wadah1 {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 70px;
+  }
+
+  .col {
+    margin-bottom: 20px;
+  }
+}

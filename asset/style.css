@@ -9,8 +9,6 @@ body {
 .blockquote {
   padding-bottom: 100px;
 }
-\
-.
 
 /* navbar */
 .navbar .container-fluid {
@@ -43,10 +41,11 @@ body {
   margin-bottom: 20px;
 }
 
-.container {
-  align-content: center;
-  margin: 20px;
-  padding-left: 250px;
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Untuk mengisi tinggi layar penuh */
 }
 
 .card .card-body .card-title {
@@ -82,11 +81,5 @@ body {
   .wadah1 {
     margin-top: 40px;
     text-align: center;
-  }
-
-  .container {
-    align-content: center;
-    margin: 20px;
-    padding-left: 210px;
   }
 }
