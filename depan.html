@@ -48,10 +48,28 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="#our">Our Team</a>
-            <a class="nav-link" href="#">Portofolio</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#our"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Our Team
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="">Aldi Daim F</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Gabriella M. A</a></li>
+                <li><a class="dropdown-item" href="#">M. Rafif A</a></li>
+              </ul>
+            </li>
+            <a class="nav-link" href="#kata">Kata-Kata</a>
+            <a class="nav-link" href="#">Rafif</a>
+            <a class="nav-link" href="#">Rafif</a>
+            <a class="nav-link" href="#">Rafif</a>
           </div>
         </div>
       </div>
@@ -80,15 +98,17 @@
         <div class="carousel-item active">
           <img src="img/ah01.jpg" class="d-block w-100 h-90" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>About Us</h5>
+            <p>Work together to build a technology-oriented country.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/ah02.jpg" class="d-block w-100 h-90" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>Tentang Kami</h5>
+            <p>
+              Bekerja sama membangun negeri yang beorientasi pada teknologi.
+            </p>
           </div>
         </div>
       </div>
@@ -124,15 +144,16 @@
         <div class="row">
           <!-- aldi daim -->
           <div class="col">
-            <div class="card" style="width: 18rem">
+            <div class="card" style="width: 20rem">
               <img src="img/aldi.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Aldi Daim</h5>
+                <h5 class="card-title">Aldi Daim F</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lahir di Cimahi pada tanggal 21 April 2003. Seorang software
+                  developer, spesialisasi dalam pengembangan aplikasi
+                  menggunakan bahasa pemrograman C++, Python, dan JavaScript.
                 </p>
-                <a href="#" class="btn btn-danger">Kesitu</a>
+                <a href="#" class="btn btn-dark">Kesitu</a>
               </div>
             </div>
           </div>
@@ -140,41 +161,123 @@
 
           <!-- Gabriella -->
           <div class="col">
-            <div class="card" style="width: 18rem">
+            <div class="card" style="width: 20rem">
               <img src="img/el.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Gabriella</h5>
+                <h5 class="card-title">Gabriella M. A</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lahir di Bekasi pada tanggal 15 Juni 2004. Seorang kreatif dan
+                  konten kreator seperti artikel, video, atau gambar untuk media
+                  sosial. Menguasai beragam software seperti Adobe Photoshop,
+                  Figma, dan Canva serta bahasa pemrograman seperti HTML dan
+                  CSS.
                 </p>
-                <a href="#" class="btn btn-warning">Kesana</a>
+                <a href="#" class="btn btn-dark">Kesana</a>
               </div>
             </div>
           </div>
           <!-- end -->
 
-          <!-- rafif -->
+          <!-- RAFIF -->
           <div class="col">
-            <div class="card" style="width: 18rem">
+            <div class="card" style="width: 20rem">
               <img src="img/rapip.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">M. Rafif</h5>
-                <p class="card-text">Seorang manusia dengan 0 ambisi</p>
-                <a href="#" class="btn btn-primary">Kesini</a>
+                <h5 class="card-title">M. Rafif A</h5>
+                <p class="card-text">
+                  Lahir di Bandung pada tanggal 1 Maret 2004. Seorang games
+                  developer, spesialisasi dalam pengembangan game menggunakan
+                  bahasa pemrograman C#, C++, dan JavaScript.
+                </p>
+                <a href="#" class="btn btn-dark">Kesini</a>
               </div>
             </div>
           </div>
-          <!-- end -->
         </div>
       </div>
     </div>
 
-    <!-- dikata kata dulu bos -->
-    <div class="kataawal">
-      <h1>Kata Kata Hari ini</h1>
+    <!--  -->
+
+    <div class="portoawal" id="our">
+      <h1>Our Portofolio</h1>
+    </div>
+
+    <div class="wrap">
+      <div class="porto">
+        <h1>Aldi Daim Fauzan</h1>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="img/aldi.jpg" alt="Deskripsi Gambar" />
+      </div>
+
+      <!-- services section-->
+      <section id="services">
+        <div class="container">
+          <h1 class="text-center">Services</h1>
+          <div class="row">
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fas servicesIcon fa-clock"></i>
+                  <h4 class="card-title mt-3">
+                    C++ <img src="img/c-.png" class="icon2" alt="..." />
+                  </h4>
+                  <p class="card-text mt-3 keahlian">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content. Some quick example text
+                    to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fas servicesIcon fa-layer-group"></i>
+                  <h4 class="card-title mt-3">
+                    Python <img src="img/python.png" class="icon2" alt="..." />
+                  </h4>
+
+                  <p class="card-text mt-3 keahlian">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content. Some quick example text
+                    to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="far servicesIcon fa-check-circle"></i>
+                  <h4 class="card-title mt-3">
+                    JavaScript
+                    <img src="img/c-sharp.png" class="icon2" alt="..." />
+                  </h4>
+                  <p class="card-text mt-3 keahlian">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content. Some quick example text
+                    to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <!--  -->
+
+    <!-- dikata kata dulu bos -->
+    <div class="kataawal">
+      <h1 id="kata">Kata Kata Hari ini</h1>
+    </div>
 
     <!-- kata kata1  -->
     <div class="kata">
@@ -188,6 +291,8 @@
       </figure>
     </div>
     <!-- akhir kata -->
+
+    <!-- footer section-->
 
     <!-- js -->
     <script

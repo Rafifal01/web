@@ -49,22 +49,112 @@ body {
 }
 
 /* body */
+.col {
+  margin-bottom: 30px;
+}
 .card .card-body .card-text {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  max-width: 300px;
 }
 
 .card-text {
-  min-height: 100px;
+  min-height: 200px;
+  text-align: center;
 }
 
+.card-img-top {
+  max-height: 400px;
+}
 /* kata kata awal */
+
 .kataawal {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-bottom: 30px;
+}
+
+/* por */
+.portoawal {
+  text-align: center;
+  height: 400px;
+  background-color: #7c83e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portoawal h1 {
+  color: #fff; /* Warna teks menjadi putih atau sesuai yang Anda inginkan */
+  font-size: 24px; /* Ukuran font sesuai yang Anda inginkan */
+  margin: 0; /* Hapus margin yang mungkin ada secara default */
+  font-size: 100px;
+}
+
+.wrap {
+  margin-top: 100px;
+}
+
+.porto {
+  margin: 20px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(120, 116, 116);
+}
+
+.porto h1 {
+  font-size: 50px;
+}
+
+/* gambar bulet */
+.portfolio-item {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #7c83e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* section service*/
+#services {
+  margin-top: 20px;
+}
+
+.ispor h1 {
+}
+
+.keahlian {
+  text-align: justify;
+}
+
+.card-body .icon2 {
+  width: 30px;
 }
 
 /* tampilan mobile phone */
