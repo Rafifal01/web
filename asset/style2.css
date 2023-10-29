@@ -134,8 +134,9 @@ body {
 }
 
 /* pembungkus portofolio */
-.container3 {
+.detailpor {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* Untuk membuat gambar menjadi lingkaran */
