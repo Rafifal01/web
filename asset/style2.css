@@ -96,17 +96,6 @@ body {
   margin-top: 100px;
 }
 
-.porto {
-  margin: 20px;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  color: rgb(120, 116, 116);
-}
-
 .porto h1 {
   font-size: 50px;
 }
@@ -137,6 +126,10 @@ body {
 .detailpor {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.aldi1 {
+  background-color: #b6bf89;
 }
 
 /* Untuk membuat gambar menjadi lingkaran */
@@ -174,15 +167,18 @@ body {
   margin-top: 20px;
 }
 
-.ispor h1 {
-}
-
 .keahlian {
   text-align: justify;
 }
 
 .card-body .icon2 {
   width: 30px;
+}
+
+#services {
+  background-color: #efe9e1;
+  padding-bottom: 90px;
+  padding-top: 70px;
 }
 
 /* tampilan mobile phone */
