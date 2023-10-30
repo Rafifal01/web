@@ -128,10 +128,6 @@ body {
   margin-bottom: 100px;
 }
 
-.aldi1 {
-  background-color: #b6bf89;
-}
-
 /* Untuk membuat gambar menjadi lingkaran */
 .rounded-image {
   border-radius: 50%; /* Mengatur border-radius ke 50% untuk membuatnya melingkar */
@@ -176,9 +172,36 @@ body {
 }
 
 #services {
-  background-color: #efe9e1;
   padding-bottom: 90px;
   padding-top: 70px;
+}
+
+#aldibg {
+  background-color: #86a789;
+}
+
+#elbg {
+  background-color: #1f9a29;
+}
+
+.rafifbg {
+  background-color: #435445;
+}
+
+.servis1 {
+  background-color: #eae7b1;
+}
+
+.servis2 {
+  background-color: #fdf7c3;
+}
+
+.service3 {
+  background-color: #eae7b1;
+}
+
+.kotak1 {
+  background-color: #e6a4a4;
 }
 
 /* tampilan mobile phone */
