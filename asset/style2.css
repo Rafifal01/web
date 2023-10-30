@@ -6,12 +6,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #ffc567;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
 }
 
 /* navbar */
 .navbar {
-  background-color: #552cb7;
+  background-color: #643bc4;
 }
 
 .navbar .container-fluid {
@@ -51,9 +55,11 @@ body {
 .card .card-body .card-title {
   font-size: 30px;
   font-weight: bold;
+  color: #552cb7;
+  font-variant: normal;
 }
 
-/* body */
+/* card */
 .col {
   margin-bottom: 30px;
 }
@@ -63,8 +69,12 @@ body {
   font-weight: 400;
 }
 
+.card {
+  background-color: white;
+}
+
 .card-text {
-  min-height: 200px;
+  min-height: 150px;
   text-align: center;
 }
 
@@ -83,7 +93,7 @@ body {
 .portoawal {
   text-align: center;
   height: 400px;
-  background-color: #fb7da8;
+  background-color: #fd5a46;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,42 +179,46 @@ body {
   width: 100%;
 }
 
+.APA {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
 .keahlian {
   text-align: justify;
+  min-height: 200px;
 }
 
 #services1 {
   padding-bottom: 90px;
   padding-top: 70px;
-  background-color: #7c83e6;
+  background-color: #4d98c0;
 }
 
 #services2 {
   padding-bottom: 90px;
   padding-top: 70px;
-  background-color: #1f9a29;
+  background-color: #ffc567;
 }
 
 #services3 {
   padding-bottom: 90px;
   padding-top: 70px;
-  background-color: #435445;
+  background-color: #fb7da8;
 }
 
 .servis1 {
-  background-color: #eae7b1;
+  background-color: #fff;
 }
 
 .servis2 {
-  background-color: #fdf7c3;
+  background-color: #fff;
 }
 
-.service3 {
-  background-color: #eae7b1;
-}
-
-.kotak1 {
-  background-color: #e6a4a4;
+.servis3 {
+  background-color: #fff;
 }
 
 /* tampilan mobile phone */
@@ -245,4 +259,8 @@ body {
   .porto {
     margin: 0;
   }
+}
+
+footer {
+  text-align: center;
 }
